@@ -16,13 +16,13 @@ Este proyecto consiste en el desarrollo de una tienda virtual funcional utilizan
 
 - `/app/public/` → Contiene el core de WordPress con carpetas `wp-admin`, `wp-content`, `wp-includes`.
 - `/conf/sql/local.sql` → Exportación de la base de datos del sitio.
-- `/logs/` → Archivos de registro locales (si aplica).
+- `/logs/` → Archivos de registro locales.
 
 ## Cómo ejecutar el sitio en local
 
 1. Clona este repositorio en tu equipo:
    ```bash
-   git clone https://github.com/tu-usuario/makeupstore-wp.git
+   git clone https://github.com/Kaltum-Viveros/makeupstore-wp.git
    ```
 
 2. Abre LocalWP (o XAMPP/MAMP) y configura un nuevo sitio:
@@ -33,7 +33,7 @@ Este proyecto consiste en el desarrollo de una tienda virtual funcional utilizan
 
 4. Importa la base de datos:
    - Usa phpMyAdmin o Adminer
-   - Crea una base de datos con el mismo nombre que aparece en `wp-config.php`
+   - Crea una base de datos con el mismo nombre que aparece en `wp-config.php` , en este repositorio se llama `local`
    - Importa el archivo `local.sql` desde `/conf/sql/`
 
 5. Asegúrate de que el archivo `wp-config.php` tenga los datos de conexión correctos:
@@ -45,7 +45,3 @@ Este proyecto consiste en el desarrollo de una tienda virtual funcional utilizan
    ```
 
 6. Puedes acceder desde `http://localhost/makeupstore` o desde LocalWP directamente.
-
-
-- No se configuró SEO ya que no se aplicó ningún plugin relacionado.
-- PayPal no se implementó completamente porque requiere una cuenta empresarial con datos fiscales.
