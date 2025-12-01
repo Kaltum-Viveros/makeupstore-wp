@@ -3,7 +3,7 @@
 Tienda en línea de maquillaje desarrollada en WordPress como parte de la práctica de clase.
 
 ## Tema elegido
-
+Para el proyecto se seleccionó el dominio temático de una tienda de cosméticos y productos de belleza, tema ideal para mostrar una variedad de productos con distintos atributos, lo cual resulta ideal para demostrar las funcionalidades de categorización, atributos de producto y variaciones que ofrece WooCommerce.
 - **Astra**: Tema ligero y flexible, ideal para eCommerce.
 - Constructor visual utilizado: **Elementor**.
 - Plugin de eCommerce: **WooCommerce**.
